@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🖥️ Remote Obscure
+# Remote Obscure
 
 **Controle Total do seu Computador na Palma da sua Mão.**
 
@@ -11,7 +11,7 @@
 
 *Um aplicativo moderno, rápido e de código aberto para acesso remoto.*
 
-[Como Funciona](#-como-funciona) · [Funcionalidades](#-funcionalidades) · [Instalação](#-instalação-rápida) · [Privacidade e Segurança](#-privacidade-e-segurança)
+[Como Funciona](#como-funciona) · [Funcionalidades](#funcionalidades) · [Instalação](#instalação-rápida) · [Privacidade e Segurança](#privacidade-e-segurança)
 
 </div>
 
@@ -19,9 +19,9 @@
 
 **Remote Obscure** é um sistema completo (Aplicativo + Servidor) que permite visualizar e controlar a tela do seu computador pelo seu celular em tempo real, como um trackpad gigante, e executar comandos essenciais a distância, sem depender de nuvens ou serviços pagos. Todo o tráfego acontece diretamente via Wi-Fi (ou ngrok/tunnel).
 
-## ✨ Funcionalidades
+## Funcionalidades
 
-### 📱 Aplicativo (React Native / Expo)
+### Aplicativo (React Native / Expo)
 - **Visualização em Tempo Real:** Assista à tela do PC com alta taxa de quadros e latência mínima.
 - **Mouse Trackpad:** Controle o mouse usando a tela do celular como um trackpad moderno (movimento relativo, dois toques para arrastar).
 - **Interface Glassmorphism:** Design escuro premium com SafeArea total e ícones nativos SVG (MaterialDesign).
@@ -31,7 +31,7 @@
   - Controle de volume e reprodutor de mídia (Play/Pause, Próxima, Anterior).
   - Comandos de Energia (Desligar, Reiniciar, Suspender e Bloquear PC).
 
-### 🖥️ Servidor (Python)
+### Servidor (Python)
 - **Captura Ultrarrápida:** Usa `mss` (Multi-Screen Simulator) para capturar a tela sem consumir muita CPU.
 - **Controle Preciso:** Usa `pyautogui` e `pynput` para traduzir o toque do celular em ações fiéis de mouse e teclado.
 - **Conexão WebSocket:** Mantém a conexão persistente pela porta `8765`.
@@ -39,7 +39,7 @@
 
 ---
 
-## 🚀 Instalação Rápida
+## Instalação Rápida
 
 ### 1. Preparando o Servidor (No PC)
 Certifique-se de que o [Python 3](https://www.python.org/downloads/) esteja instalado.
@@ -74,7 +74,7 @@ Ao abrir o app, digite o **IP do PC** e a senha (a senha padrão é `remote123`,
 
 ---
 
-## 🔒 Privacidade e Segurança
+## Privacidade e Segurança
 Este projeto foi construído pensando 100% em segurança local.
 - O seu endereço IP, sua tela e seus toques não passam por nenhum servidor de terceiros.
 - Nenhuma chave de API ou Token pessoal está armazenado ou *hardcoded* neste repositório.
